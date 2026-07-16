@@ -1,0 +1,9 @@
+#1. Write a program to check whether a number is positive, negative, or zero.
+num = int(input("Enter the number:"))
+print(num)
+if num>0:
+    print("Positive Number")
+elif num<0:
+    print("Negative Number")
+else :
+    print("zero")
